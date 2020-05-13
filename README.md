@@ -14,7 +14,7 @@ A shell is a command-line interpreter and typical operations performed by shell 
 
 create a simple .sh file
 
-```
+```bash
 root@kali:~#vi try.sh
 
 #!/bin/bash/
@@ -26,14 +26,16 @@ root@kali:~# ./try.sh
 hello world
 ```
 ---
-**TIPS**
+>TIPS
+For executing a .sh file you cane use ./{file_name} or 
 
-For executing a .sh file you cane use ./{file_name}
-also\
-root@kali:~#bash -f {file_name}
+```bash
+root@kali:~# bash -f {file_name}
+
+```
 ---
 
-######Using conditional statements
+###### Using conditional statements
 
 ```
 root@kali:~#vi ifelse.sh
@@ -60,7 +62,7 @@ var1 is greater than var2
 ```
 ######Using logical 'and' 'or' and dynamic variable
 
-```
+```bash
 
 #!/bin/bash
 
@@ -82,9 +84,9 @@ root@kali:~# ./ifelse.sh 5 14 12
 no condtion
 
 ```
-######Switch Case
+###### Switch Case
 
-```
+```bash
 root@kali:~#vi case.sh
 
 #!/bin/bash/
@@ -115,7 +117,7 @@ else condition
 
 **FOR LOOP**
 
-```
+```bash
 root@kali:~#vi for.sh
 
 #!/bin/bash/
@@ -158,7 +160,7 @@ root@kali:~# ./for.sh
 
 ---
 
-```
+```bash
 root@kali:~#vi while.sh
 
 #!/bin/bash/
@@ -180,4 +182,6 @@ root@kali:~# ./while.sh
  printing 4 times
 
  ```
+Author - [Kakí_epíthesi](https://github.com/kaki-epithesi)
+
 [ALL CODE](https://github.com/kaki-epithesi/shell-scripting)
