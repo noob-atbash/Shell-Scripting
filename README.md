@@ -4,10 +4,11 @@
 
 A shell script is a computer program designed to be run by the Unix/Linux shell which could be one of the following:
 
-The Bourne Shell
-The C Shell
-The Korn Shell
-The GNU Bourne-Again Shell
+- The Bourne Shell
+- The C Shell
+- The Korn Shell
+- The GNU Bourne-Again Shell
+
 A shell is a command-line interpreter and typical operations performed by shell scripts include file manipulation, program execution, and printing text.
 
 ---
@@ -26,8 +27,7 @@ root@kali:~# ./try.sh
 hello world
 ```
 ---
->TIPS
-For executing a .sh file you cane use ./{file_name} or 
+>TIPS: For executing a .sh file you cane use ./{file_name} or 
 
 ```bash
 root@kali:~# bash -f {file_name}
@@ -60,7 +60,7 @@ root@kali:~# ./ifelse.sh
 var1 is greater than var2
 
 ```
-######Using logical 'and' 'or' and dynamic variable
+##### U sing logical 'and' 'or' and dynamic variable
 
 ```bash
 
@@ -113,7 +113,7 @@ else condition
 
 ```
 
-######LOOP STRUCTURES
+###### LOOP STRUCTURES
 
 **FOR LOOP**
 
